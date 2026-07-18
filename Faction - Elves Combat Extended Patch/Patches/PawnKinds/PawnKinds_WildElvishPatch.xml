@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- ================================================= -->
+<!-- Civilians -->
+<!-- ================================================= -->
+
+<!-- Trader -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_Trader"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Trader"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Trader"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- ================================================= -->
+<!-- Leaders -->
+<!-- ================================================= -->
+
+<!-- Chief -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="HighElvish_Chief"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="HighElvish_Chief"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="HighElvish_Chief"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- ================================================= -->
+<!-- Military -->
+<!-- ================================================= -->
+
+<!-- Warrior -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_warrior"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_warrior"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_warrior"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- Swordkins -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_Swordkins"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Swordkins"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Swordkins"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- SwornBlade -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_SwornBlade"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_SwornBlade"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_SwornBlade"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- Archer -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_Archer"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Archer"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Archer"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- Hunter -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_Hunter"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Hunter"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_Hunter"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+<!-- Heavy Archer -->
+<!-- ================================================= -->
+<Operation Class="PatchOperationConditional">
+    <xpath>Defs/PawnKindDef[defName="WildElvish_HeavyArcher"]/apparelRequired</xpath>
+
+    <nomatch Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_HeavyArcher"]</xpath>
+        <value>
+            <apparelRequired>
+                <li>CE_Apparel_Backpack</li>
+            </apparelRequired>
+        </value>
+    </nomatch>
+
+    <match Class="PatchOperationAdd">
+        <xpath>Defs/PawnKindDef[defName="WildElvish_HeavyArcher"]/apparelRequired</xpath>
+        <value>
+            <li>CE_Apparel_Backpack</li>
+        </value>
+    </match>
+</Operation>
+
+
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Faction - Elves Combat Extended Patch</name>
+    <author>koyomim</author>
+    <packageId>koyomim.factionelves.ce</packageId>
+
+    <supportedVersions>
+        <li>1.6</li>
+    </supportedVersions>
+
+    <modDependencies>
+        <li>
+            <packageId>ceteam.combatextended</packageId>
+            <displayName>Combat Extended</displayName>
+        </li>
+
+        <li>
+            <packageId>icc.fov.elves</packageId>
+            <displayName>Faction - Elves</displayName>
+        </li>
+    </modDependencies>
+
+<description>
+Combat Extended compatibility patch for Faction - Elves.
+
+Adds:
+- CE backpacks
+- CE compatible weapons
+- Great Long Arrow ammunition
+
+</description>
+
+<loadAfter>
+    <li>brrainz.harmony</li>
+    <li>ludeon.rimworld</li>
+    <li>CETeam.CombatExtended</li>
+    <li>icc.fov.elves</li>
+</loadAfter>
+</ModMetaData>
