@@ -25,7 +25,8 @@ Subscribe on Steam Workshop or place the mod after:
 ## Credits
 
 Original mod:
-...
+-Combat Extended
+-Faction - Elves
 
 Compatibility patch:
 koyomim
