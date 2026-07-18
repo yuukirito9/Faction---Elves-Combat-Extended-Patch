@@ -45,16 +45,55 @@
         </value>
     </Operation>
 
+
     <!-- CE Equipped Stats -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Apparel_DuelistPlateArmor"]/equippedStatOffsets</xpath>
+
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DuelistPlateArmor"]</xpath>
+            <value>
+                <equippedStatOffsets />
+            </value>
+        </nomatch>
+    </Operation>
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_DuelistPlateArmor"]/equippedStatOffsets</xpath>
         <value>
-            <equippedStatOffsets>
+            <equippedStatOffsets Inherit="False">
                 <MeleeDodgeChance>0.15</MeleeDodgeChance>
-                <MoveSpeed>-0.6</MoveSpeed>
+                <MoveSpeed>-0.5</MoveSpeed>
             </equippedStatOffsets>
         </value>
     </Operation>
+
+
+    <!-- CE Body Coverage -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="Apparel_DuelistPlateArmor"]/apparel/bodyPartGroups</xpath>
+
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/ThingDef[defName="Apparel_DuelistPlateArmor"]/apparel</xpath>
+            <value>
+                <bodyPartGroups />
+            </value>
+        </nomatch>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_DuelistPlateArmor"]/apparel/bodyPartGroups</xpath>
+        <value>
+            <bodyPartGroups Inherit="False">
+                <li>Torso</li>
+                <li>Neck</li>
+                <li>Legs</li>
+                <li>Waist</li>
+                <li>Feet</li>
+            </bodyPartGroups>
+        </value>
+    </Operation>
+
 
     <!-- CE Partial Armor -->
     <Operation Class="PatchOperationAddModExtension">
