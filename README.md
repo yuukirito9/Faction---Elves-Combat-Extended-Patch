@@ -18,10 +18,20 @@ Combat Extended compatibility patch for Faction - Elves.
 
 ## Installation
 
-Subscribe on Steam Workshop or place the mod after:
 
-- Combat Extended
-- Faction - Elves
+## Installation
+
+Subscribe on Steam Workshop or place the mod after:
+-Combat Extended
+-Faction - Elves
+
+## Credits
+
+Original mod:
+...
+
+Compatibility patch:
+koyomim
 
 ## Compatibility
 
