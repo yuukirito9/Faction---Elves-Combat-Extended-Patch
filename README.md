@@ -18,9 +18,6 @@ Combat Extended compatibility patch for Faction - Elves.
 
 ## Installation
 
-
-## Installation
-
 Subscribe on Steam Workshop or place the mod after:
 -Combat Extended
 -Faction - Elves
