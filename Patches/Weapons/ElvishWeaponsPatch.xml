@@ -21,7 +21,7 @@
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <warmupTime>3.0</warmupTime>
-        <range>30</range>
+        <range>35</range>
         <defaultProjectile>Projectile_GreatLongArrow_Stone</defaultProjectile>
         <soundCast>Bow_Large</soundCast>
     </Properties>
